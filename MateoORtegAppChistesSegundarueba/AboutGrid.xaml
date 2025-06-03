@@ -37,41 +37,14 @@
         <BoxView Grid.Row="1"
              Grid.Column="1"
              Color="AliceBlue" />
-        <Label Grid.Row="1"
-           Grid.Column="1"
-           Text="Versión: 1.0"
-           HorizontalOptions="Center"
-           VerticalOptions="Center" />
+             <Label Grid.Row="1"
+                 Grid.Column="1"
+                 Text="Versión: 1.0"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center" />
 
          </Grid>
     
     </Grid>
 
-
-    <Grid.RowDefinitions>
-        <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
-    </Grid.RowDefinitions>
-
-
-    <Grid.ColumnDefinitions>
-        <ColumnDefinition Width="*"/>
-        <ColumnDefinition Width="*"/>
-    </Grid.ColumnDefinitions>
-
-
-    <Border Grid.Row="0" Grid.Column="0" Stroke="Aqua" StrokeShape="RoundRectangle 40" Margin="25,25">
-
-    </Border>
-
-    <Border Grid.Row="0" Grid.Column="1" Stroke="Aqua" StrokeShape="RoundRectangle 40" Margin="25,25">
-
-    </Border>
-
-    <Border Grid.Row="1" Grid.Column="0" Stroke="Aqua" StrokeShape="RoundRectangle 40" Margin="25,25">
-
-    </Border>
-    <Border Grid.Row="1" Grid.Column="1" Stroke="Aqua" StrokeShape="RoundRectangle 40" Margin="25, 25">
-
-    </Border>
 </ContentPage>

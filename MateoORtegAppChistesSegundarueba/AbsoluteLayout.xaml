@@ -4,7 +4,6 @@
              x:Class="MateoORtegAppChistesSegundarueba.AbsoluteLayout"
              Title="AbsoluteLayout">
     <AbsoluteLayout>
-        <!-- Label para mostrar el chiste -->
         <Label x:Name="JokeLabel"
            Text="Pulsa el botón para ver un chiste"
            FontSize="18"
@@ -13,7 +12,6 @@
            AbsoluteLayout.LayoutBounds="0.5,0.4,0.8,0.2"
            AbsoluteLayout.LayoutFlags="All" />
 
-        <!-- Botón fijo en la parte inferior -->
         <Button Text="Otro chiste"
             Clicked="OnOtroChisteClicked"
             AbsoluteLayout.LayoutBounds="0.5,1,0.8,50"
