@@ -17,44 +17,40 @@
         <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
-        <Border Grid.Row="0" Grid.Column="0" Stroke="Black" StrokeShape="RoundRectangle 40" Margin="25,25">
-                <BoxView Color="AliceBlue" />
-                <Label Text="Nombre: Mateo Ortega Vacas"
-                HorizontalOptions="Center"
-                VerticalOptions="Center" />
-        </Border>
+            <Border Grid.Row="0" Grid.Column="0" Stroke="Black" StrokeShape="RoundRectangle 40" Margin="25,25">
+                    <BoxView Color="AliceBlue" />
+                    <Label 
+                        Text="Nombre: Mateo Ortega Vacas"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center" />
+            </Border>
             
-        <Border Grid.Row="0" Grid.Column="1" Stroke="Black" StrokeShape="RoundRectangle 40" Margin="25,25">
-                <BoxView Grid.Column="1" 
-                         Color="LightSkyBlue" />
-                <Label Grid.Column="1"
-                   Text="Fecha: 03/06/2024"
-                   HorizontalOptions="Center"
-                   VerticalOptions="Center" />  
-        </Border>
+            <Border Grid.Row="0" Grid.Column="1" Stroke="Black" StrokeShape="RoundRectangle 40" Margin="25,25">
+                    <BoxView Color="LightSkyBlue" />
+                    <Label
+                       Text="Fecha: 03/06/2024"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" />  
+            </Border>
 
 
-        <Border Grid.Row="1" Grid.Column="0" Stroke="Black" StrokeShape="RoundRectangle 40" Margin="25,25">
-                <BoxView Grid.Row="1"
-                        Color="Teal" />
-                <Label Grid.Row="1"
-                    Text="Intereses: Ciencia de Datos"
-                    HorizontalOptions="Center"
-                    VerticalOptions="Center" />
-        </Border>
+            <Border Grid.Row="1" Grid.Column="0" Stroke="Black" StrokeShape="RoundRectangle 40" Margin="25,25">
+                    <BoxView Color="Teal" />
+                    <Label
+                        Text="Intereses: Ciencia de Datos"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center" />
+            </Border>
 
 
-        <Border Grid.Row="1" Grid.Column="1" Stroke="Black" StrokeShape="RoundRectangle 40" Margin="25,25">
-                <BoxView Grid.Row="1"
-                Grid.Column="1"
-                Color="AliceBlue" />
-                <Label Grid.Row="1"
-                     Grid.Column="1"
-                     Text="Versión: 1.0"
-                     HorizontalOptions="Center"
-                     VerticalOptions="Center" />
+            <Border Grid.Row="1" Grid.Column="1" Stroke="Black" StrokeShape="RoundRectangle 40" Margin="25,25">
+                    <BoxView Color="AliceBlue" />
+                    <Label
+                         Text="Versión: 1.0"
+                         HorizontalOptions="Center"
+                         VerticalOptions="Center" />
 
-        </Border>
+            </Border>
 
         </Grid>
     
