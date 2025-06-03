@@ -22,12 +22,12 @@
             HorizontalOptions="Center" />
 
                     <Button
-            Text="Ir a AboutGrid"
+            Text="Ir a AboutGrid" BackgroundColor="Teal"
             Clicked="OnAboutGridClicked"
             HorizontalOptions="Center" />
 
                     <Button
-            Text="Ir a AbsoluteLayout"
+            Text="Ir a AbsoluteLayout" BackgroundColor="Teal"
             Clicked="OnAbsoluteLayoutClicked"
             HorizontalOptions="Center" />
 

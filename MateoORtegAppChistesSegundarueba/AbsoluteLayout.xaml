@@ -12,7 +12,7 @@
            AbsoluteLayout.LayoutBounds="0.5,0.4,0.8,0.2"
            AbsoluteLayout.LayoutFlags="All" />
 
-        <Button Text="Otro chiste"
+        <Button Text="Otro chiste" BackgroundColor="Teal"
             Clicked="OnOtroChisteClicked"
             AbsoluteLayout.LayoutBounds="0.5,1,0.8,50"
             AbsoluteLayout.LayoutFlags="WidthProportional,PositionProportional" />
