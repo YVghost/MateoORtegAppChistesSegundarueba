@@ -3,22 +3,47 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MateoORtegAppChistesSegundarueba.AboutGrid"
              Title="AboutGrid">
-    <Grid RowDefinitions="Auto,Auto"
-       ColumnDefinitions="*,*"
-       Padding="20"
-       VerticalOptions="Center"
-       HorizontalOptions="Center">  
-        <!-- Nombre -->
-        <Label Text="Nombre: Mateo Ortega Vacas" Grid.Row="0" Grid.Column="0" VerticalOptions="Center"/>
+    <Grid>
+        <Grid 
+        RowSpacing="6"
+        ColumnSpacing="6">
 
-        <!-- Fecha -->
-        <Label Text="Fecha: 03/06/2024" Grid.Row="1" Grid.Column="0" VerticalOptions="Center"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+            
+        <BoxView Color="AliceBlue" />
+            <Label Text="Nombre: Mateo Ortega Vacas"
+           HorizontalOptions="Center"
+           VerticalOptions="Center" />
+        <BoxView Grid.Column="1"
+             Color="LightSkyBlue" />
+        <Label Grid.Column="1"
+           Text="Fecha: 03/06/2024"
+           HorizontalOptions="Center"
+           VerticalOptions="Center" />
+        <BoxView Grid.Row="1"
+             Color="Teal" />
+        <Label Grid.Row="1"
+           Text="Intereses: Ciencia de Datos"
+           HorizontalOptions="Center"
+           VerticalOptions="Center" />
+        <BoxView Grid.Row="1"
+             Grid.Column="1"
+             Color="AliceBlue" />
+        <Label Grid.Row="1"
+           Grid.Column="1"
+           Text="Versión: 1.0"
+           HorizontalOptions="Center"
+           VerticalOptions="Center" />
 
-        <!-- Intereses -->
-        <Label Text="Intereses: Ciencia de Datos" Grid.Row="2" Grid.Column="0" VerticalOptions="Center"/>
-
-        <!-- Versión -->
-        <Label Text="Versión:" Grid.Row="3" Grid.Column="0" VerticalOptions="Center"/>
-        <Label Text="1-0" Grid.Row="3" Grid.Column="1" VerticalOptions="Center"/>
+         </Grid>
+    
     </Grid>
 </ContentPage>
